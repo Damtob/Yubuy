@@ -210,7 +210,29 @@ header a ion-icon {
   border: 2.5px solid red;
   border-radius: 12px;
 }
-.section2 .container .items .name {
+
+.section2 .btn {
+  text-align: center;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  height:25px;
+  padding-top:4px ;
+  margin: 0 65px;
+  cursor: pointer;
+  
+  
+
+  
+}
+
+
+.section .btn a {
+  text-decoration: none;
+  
+}
+.section2 .container .items .name{
   text-align: center;
   background-color: green;
   height: 25px;
@@ -225,10 +247,12 @@ header a ion-icon {
   width: 100%;
   color: rgb(255, 0, 0);
   font-weight: 650;
+  margin: 0 65px;
 }
 .section2 .container .items .info {
-  padding-left: 10px;
+  padding-inline-start:   10px;
   color: green;
+ 
 }
 .section2 .container .items .img img {
   width: 200px;
